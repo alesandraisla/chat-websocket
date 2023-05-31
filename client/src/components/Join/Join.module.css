@@ -1,0 +1,32 @@
+.join-container {
+  background-color: #fff;
+  color: #000;
+  width: 783px;
+  height: 351px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  -webkit-box-shadow: 5px 5px 17px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 17px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-style {
+  background: rgb(238, 174, 202) !important;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  ) !important;
+}
+
+.input-style {
+  border-bottom: 1px solid rgb(238, 174, 202) !important;
+  border-bottom: 1px solid
+    radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    ) !important;
+}
