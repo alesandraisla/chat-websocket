@@ -10,10 +10,35 @@
 .chat-body {
   padding: 0 10px;
   height: 550px;
+  width: 484px;
   overflow-y: scroll;
   color: #000;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .chat-body {
+    width: 696px;
+  }
+}
+
+@media (max-width: 425px) {
+  .chat-body {
+    width: 360px;
+  }
+}
+
+@media (max-width: 375px) {
+  .chat-body {
+    width: 315px;
+  }
+}
+
+@media (max-width: 320px) {
+  .chat-body {
+    width: 250px;
+  }
 }
 
 .message-container {
